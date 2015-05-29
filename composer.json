@@ -1,0 +1,19 @@
+{
+    "name": "alfred-nutile-inc/password-resetter",
+    "description": "Simple Command to reset a users password",
+    "authors": [
+        {
+            "name": "Alfred Nutile Inc",
+            "email": "me@alfrednutile.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "AlfredNutileInc\\PasswordResetter\\": "src/"
+        }
+    }
+}
